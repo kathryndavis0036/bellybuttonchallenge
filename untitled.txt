@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belly Button Biodiversity</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <link rel="stylesheet" href="style.css"> <!-- Optional: if you have a CSS file -->
+</head>
+<body>
+    <div id="dashboard">
+        <div>
+            <select id="selDataset"></select>
+        </div>
+        <div id="bar"></div>
+        <div id="bubble"></div>
+        <div id="sample-metadata"></div>
+    </div>
+
+    <script src="app.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
